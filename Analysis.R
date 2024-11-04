@@ -189,7 +189,7 @@ for (i in 2:length(corrected_samples)){
   merged_samples <- merge(merged_samples, corrected_samples[[i]])
 }
 ## Saving merged object
-merged_samples = readRDS(file = "./New Folder With Items/Gift-of-Life-Public-Repository-master/results/Fl_merged_samples_corrected_w_extra_10.rds")
+merged_samples = readRDS(file = "./results/Fl_merged_samples_corrected_w_extra_10.rds")
 
 #################################################################
 ##                           Data QC                           ##
